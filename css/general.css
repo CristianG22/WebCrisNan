@@ -3,20 +3,21 @@
     padding: 0px;
     font-size: 4px;
 }
-header, main , footer{
+header , main , footer{
     width: 100%;
 }
 
 header {
-    background-image: linear-gradient(to bottom,rgb(9, 189, 135),  rgb(216, 218, 211) );
+    background-image: linear-gradient(to bottom, rgb(179, 183, 238), rgb(216, 218, 211));
     position: sticky;
+    top: 0px;
     z-index: 4;
     height: 60px;
 }
 
 footer {
     height: 100%;
-    background-image: linear-gradient(to top,rgb(9, 189, 135),  rgb(216, 218, 211) );
+    background-color: rgb(216, 218, 211);
 }
 
 h1{
@@ -57,9 +58,14 @@ a {
 .navegador__opciones li  {
     position: relative;
     padding: 3rem;
-    z-index: 2;
+    z-index: 4;
     top: 2rem;
 }
+
+.navegador__opciones li a {
+    color: black;
+}
+
 .navegador__opciones li a:hover {
     color: white;
 }
