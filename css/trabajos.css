@@ -1,0 +1,17 @@
+h1 {
+    margin: 20px;
+}
+
+.subNavegador__opciones {
+    margin: 20px;
+    margin-top: 0px;
+    line-height: 25px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.subNavegador__opciones li a:hover {
+    color: black;
+}

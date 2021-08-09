@@ -1,0 +1,33 @@
+/* Estilos para seccion de Contacto*/
+fieldset {
+    border: 0.75rem solid rgb(67, 40, 88);
+    background-color: rgb(216, 218, 211);
+    padding: 2rem;
+}
+
+input {
+    border: 0.75rem solid rgb(89, 139, 106);
+    font-size: 3rem;
+}
+
+label{
+    font-size: 3rem;
+}
+
+textarea {
+    border: 3px solid rgb(89, 139, 106);
+    font-size: 3rem;
+}
+
+
+
+legend {
+    font-size: 20px;
+    color: rgb(67, 40, 88);
+}
+
+.formulario {
+    font-family: 'Archivo', sans-serif;
+    line-height: 5rem;
+}
+/* Fin estilos para seccion de Contacto*/

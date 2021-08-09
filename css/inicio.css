@@ -1,0 +1,19 @@
+.animate__zoomIn {
+    margin-top: -12rem;
+    height: 125rem;
+    width: 100%;
+}
+
+
+.seccionPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10rem;
+}
+
+button {
+    width: 38rem;
+    background-size: cover;
+    border: 0.1rem solid;
+}

@@ -1,0 +1,18 @@
+.principal {
+    line-height: 50px;
+}
+
+.gridSection {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 320px;
+    grid-template-areas: "info imagen";
+}
+
+.gridSection__info {
+    grid-area: info;
+}
+
+.gridSection__imagen {
+    grid-area: imagen;
+}
