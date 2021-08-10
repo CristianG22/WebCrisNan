@@ -1,18 +1,39 @@
 .principal {
-    line-height: 50px;
+    line-height: 12.5rem;
+}
+
+li {
+    font-size: 4rem;
+    margin-left: 5rem;
 }
 
 .gridSection {
     display: grid;
     grid-template-columns: 50% 50% ;
-    grid-template-rows: 320px;
+    grid-template-rows: 80rem;
     grid-template-areas: "info imagen";
 }
 
 .gridSection__info {
     grid-area: info;
+    border: red solid;
 }
 
 .gridSection__imagen {
     grid-area: imagen;
 }
+
+.gridSection__info__listado {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.gridSection__info__listado__sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
