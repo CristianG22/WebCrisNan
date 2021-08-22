@@ -15,3 +15,8 @@ h1 {
 .subNavegador__opciones li a:hover {
     color: black;
 }
+
+.carousel-item img {
+    width: 200rem;
+    height: 150rem;
+}
