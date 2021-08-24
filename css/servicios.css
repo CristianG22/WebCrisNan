@@ -2,9 +2,11 @@
     line-height: 12.5rem;
 }
 
-li {
-    font-size: 4rem;
-    margin-left: 5rem;
+.listado li {
+    font-size: 5rem;
+    margin-left: 3rem;
 }
 
-
+p {
+    font-size: 6rem;
+}

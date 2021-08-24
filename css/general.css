@@ -27,6 +27,7 @@ h1{
     font-size: 10rem;
     font-family: 'Tourney', cursive;
     text-align: center;
+    margin: 5rem;
 }
 
 h2 {
@@ -105,9 +106,7 @@ h5 {
     margin-top: 2rem;
 }
 
-.piePagina__menu h5 {
-    left: 2rem;
-}
+
 .piePagina__menu ul {
     list-style-type: none;
 }

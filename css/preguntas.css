@@ -1,29 +1,12 @@
-h1 {
-    margin-bottom: 2,5rem;
-}
-
-.metodosPago__opciones li {
-    font-size: 5rem;
-}
-
-
-.gridPreguntas {
-    display: grid;
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 320px 320px;
-    grid-template-areas:    "metodos metodologia"
-                            "aclaraciones aclaraciones";
-}
-
 .metodosPago {
     text-align: center;
     position: relative;
     border: 2px solid black;
-    line-height: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    grid-area: metodos;
+    line-height: 15rem;
+}
+
+h3 {
+    margin: 5rem;
 }
 
 .metodosPago__opciones{
@@ -33,51 +16,55 @@ h1 {
     align-items: center;
 }
 
-.metodologiaTrabajo {
-    position: relative;
-    border: 2px solid black;
-    grid-area: metodologia;
+.metodosPago__opciones li {
+    font-size: 5rem;
 }
 
-.aclaracionImpClass{
-    position: relative;
+.metodologiaTrabajo {
     border: 2px solid black;
-    text-align: center;
-    grid-area: aclaraciones;
+    line-height: 12rem;
+}
+
+.metodologiaTrabajo ol li {
+    font-size: 5rem;
+}
+.metodologiaTrabajo ol {
+    margin-left: 7rem;
 }
 
 /* imagenes */
 
 .metodosPago__billete {
-    height: 50px;
-    width: 80px;
+    height: 12.5rem;
+    width: 20rem;
     position: absolute;
-    top: 70px;
-    left: 400px;
+    top: 20rem;
+    left: 100rem;
 }
 
 .metodosPago__tarjeta {
-    height: 60px;
-    width: 80px;
+    height: 15rem;
+    width: 20rem;
     position: absolute;
-    top: 120px;
-    left: 400px;
+    top: 34rem;
+    left: 100rem;
 }
 
 .metodosPago__cheque {
-    height: 40px;
-    width: 80px;
+    height: 10rem;
+    width: 20rem;
     position: absolute;
-    top: 190px;
-    left: 400px;
+    top: 52rem;
+    left: 100rem;
 }
 
 .metodosPago__cajero {
-    height: 70px;
-    width: 90px;
+    height: 17.5rem;
+    width: 22.5rem;
     position: absolute;
-    top: 240px;
-    left: 400px;
+    top: 64rem;
+    left: 110rem;
 } 
 
 /* fin imagenes */
+
