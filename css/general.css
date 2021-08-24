@@ -5,6 +5,8 @@
 }
 header , body , main , footer{
     width: 100%;
+    height: 100%;
+
 }
 
 header {
@@ -18,13 +20,8 @@ header {
 footer {
     height: 100%;
     background-image: linear-gradient(to top, rgb(179, 183, 238), rgb(216, 218, 211));
-    position: relative;
-}
+} 
 
-footer p {
-    text-align: end;
-    margin-right: 5rem;
-}
 
 h1{
     font-size: 10rem;
@@ -54,6 +51,7 @@ a {
     text-decoration: none;
 }
 
+/* Styles header */
 .navegador__opciones {
     list-style-type: none;
     display: flex;
@@ -77,25 +75,85 @@ a {
 }
 
 .imagenLogo {
-    
     top: 2rem;
     height: 40px;
     width: 100px;
     position: absolute;
 }
+/* Fin de styles header*/
 
+/* Styles footer*/
+.piePagina {
+    text-align: center;
+}
+
+.piePagina__decoracion img {
+    margin-top: 6rem;
+    height: 18rem;
+    width: 40rem;
+}
+
+.piePagina__decoracion p {
+    font-size: 4rem;
+    margin-top: 5rem;
+
+}
+h5 {
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.piePagina__menu h5 {
+    left: 2rem;
+}
+.piePagina__menu ul {
+    list-style-type: none;
+}
+
+.piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black;
+}
+
+.piePagina__menu ul li a:hover {
+    color: white;
+}
+
+.piePagina__contacto {
+    text-align: center;
+}
+
+.piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem;
+}
+
+.piePagina__contacto h5 {
+    right: 1rem;
+}
 .logoGmail {
     height: 10rem;
     position: absolute;
+    left: 17rem;
+    top: 12rem;
 }
 
 .logoWsp {
     height: 10rem;
     position: absolute;
+    left: 17rem;
+    top: 24rem;
 }
 
+
+/*
 .navbar-collapse {
     width: 100%;
     height: 15rem;
     background-image: linear-gradient(to bottom, rgb(179, 183, 238), rgb(216, 218, 211));
 }
+
+parte bootstrap de nav
+*/
