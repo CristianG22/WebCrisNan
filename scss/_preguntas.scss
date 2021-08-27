@@ -14,22 +14,23 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
 
-.metodosPago__opciones li {
-    font-size: 5rem;
+    li  {
+        font-size: 5rem;
+        }
 }
 
 .metodologiaTrabajo {
     border: 2px solid black;
     line-height: 12rem;
-}
 
-.metodologiaTrabajo ol li {
-    font-size: 5rem;
-}
-.metodologiaTrabajo ol {
-    margin-left: 7rem;
+    ol {
+        margin-left: 7rem;
+
+        li  {
+            font-size: 5rem;
+            }
+        }
 }
 
 /* imagenes */

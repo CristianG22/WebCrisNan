@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 4px; }
+
+header, body, main, footer {
+  width: 100%;
+  height: 100%; }
+
+header {
+  background-image: linear-gradient(to bottom, #b3b7ee, #d8dad3);
+  height: 15rem;
+  position: sticky;
+  top: 0px;
+  z-index: 4; }
+
+footer {
+  height: 100%;
+  background-image: linear-gradient(to top, #b3b7ee, #d8dad3); }
+
+h1 {
+  font-size: 10rem;
+  font-family: 'Tourney', cursive;
+  text-align: center;
+  margin: 5rem; }
+
+h2 {
+  color: #a50a04;
+  font-size: 8rem;
+  font-family: 'Archivo', sans-serif; }
+
+h3 {
+  font-size: 7rem;
+  font-family: 'Archivo', sans-serif;
+  text-align: center; }
+
+p {
+  font-size: 5rem;
+  font-family: 'Archivo', sans-serif; }
+
+a {
+  font-size: 4rem;
+  font-family: 'Archivo', sans-serif;
+  text-decoration: none; }
+
+/* Styles header */
+.navegador__opciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .navegador__opciones li {
+    padding: 3rem;
+    z-index: 4;
+    top: 2rem; }
+    .navegador__opciones li a {
+      color: black; }
+    .navegador__opciones li a:hover {
+      color: white; }
+
+.imagenLogo {
+  top: 2rem;
+  height: 10rem;
+  width: 25rem;
+  position: absolute; }
+
+/* Fin de styles header*/
+/* Styles footer*/
+h5 {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 2rem; }
+
+.piePagina {
+  text-align: center; }
+
+.piePagina__decoracion img {
+  margin-top: 6rem;
+  height: 18rem;
+  width: 40rem; }
+
+.piePagina__decoracion p {
+  font-size: 4rem;
+  margin-top: 5rem; }
+
+.piePagina__menu ul {
+  list-style-type: none; }
+  .piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black; }
+  .piePagina__menu ul li a:hover {
+    color: white; }
+
+.piePagina__contacto {
+  text-align: center; }
+  .piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .piePagina__contacto h5 {
+    right: 1rem; }
+
+.logoGmail {
+  height: 10rem;
+  position: absolute;
+  left: 17rem;
+  top: 12rem; }
+
+.logoWsp {
+  height: 10rem;
+  position: absolute;
+  left: 17rem;
+  top: 24rem; }
+
+/*
+.navbar-collapse {
+    width: 100%;
+    height: 15rem;
+    background-image: linear-gradient(to bottom, rgb(179, 183, 238), rgb(216, 218, 211));
+}
+
+parte bootstrap de nav
+*/
+.animate__zoomIn {
+  margin-top: -12rem;
+  height: 125rem;
+  width: 100%; }
+
+.seccionPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 10rem; }
+
+button {
+  width: 38rem;
+  background-size: cover;
+  border: 0.1rem solid; }
+
+.principal {
+  line-height: 12.5rem; }
+
+.listado li {
+  font-size: 5rem;
+  margin-left: 3rem; }
+
+p {
+  font-size: 6rem; }
+
+.subNavegador__opciones {
+  margin: 5rem;
+  margin-top: 0px;
+  line-height: 6.25rem;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly; }
+  .subNavegador__opciones li a:hover {
+    color: black; }
+
+.carousel-item img {
+  width: 200rem;
+  height: 150rem; }
+
+.metodosPago {
+  text-align: center;
+  position: relative;
+  border: 2px solid black;
+  line-height: 15rem; }
+
+h3 {
+  margin: 5rem; }
+
+.metodosPago__opciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .metodosPago__opciones li {
+    font-size: 5rem; }
+
+.metodologiaTrabajo {
+  border: 2px solid black;
+  line-height: 12rem; }
+  .metodologiaTrabajo ol {
+    margin-left: 7rem; }
+    .metodologiaTrabajo ol li {
+      font-size: 5rem; }
+
+/* imagenes */
+.metodosPago__billete {
+  height: 12.5rem;
+  width: 20rem;
+  position: absolute;
+  top: 20rem;
+  left: 100rem; }
+
+.metodosPago__tarjeta {
+  height: 15rem;
+  width: 20rem;
+  position: absolute;
+  top: 34rem;
+  left: 100rem; }
+
+.metodosPago__cheque {
+  height: 10rem;
+  width: 20rem;
+  position: absolute;
+  top: 52rem;
+  left: 100rem; }
+
+.metodosPago__cajero {
+  height: 17.5rem;
+  width: 22.5rem;
+  position: absolute;
+  top: 64rem;
+  left: 110rem; }
+
+/* fin imagenes */
+/* Estilos para seccion de Contacto*/
+fieldset {
+  border: 0.75rem solid #432858;
+  background-color: #d8dad3;
+  padding: 2rem; }
+
+input {
+  border: 0.75rem solid #598b6a;
+  font-size: 3rem; }
+
+label {
+  font-size: 3rem; }
+
+textarea {
+  border: 0.75rem solid #598b6a;
+  font-size: 3rem; }
+
+legend {
+  font-size: 5rem;
+  color: #432858; }
+
+.formulario {
+  font-family: 'Archivo', sans-serif;
+  line-height: 5rem; }
+
+/* Fin estilos para seccion de Contacto*/

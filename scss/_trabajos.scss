@@ -1,16 +1,16 @@
 
 .subNavegador__opciones {
-    margin: 20px;
+    margin: 5rem;
     margin-top: 0px;
-    line-height: 25px;
+    line-height: 6.25rem;
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-}
 
-.subNavegador__opciones li a:hover {
-    color: black;
+    li a:hover  {
+        color: $black;
+                }
 }
 
 .carousel-item img {
