@@ -1,12 +1,14 @@
-/* Estilos para seccion de Contacto*/
+@import "colors";
+@import "variables";
+
 fieldset {
-    border: 0.75rem solid rgb(67, 40, 88);
+    border: 0.75rem solid $formularioBorder-color;
     background-color: rgb(216, 218, 211);
     padding: 2rem;
 }
 
 input {
-    border: 0.75rem solid rgb(89, 139, 106);
+    border: 0.75rem solid $formularioDetalles-color;
     font-size: 3rem;
 }
 
@@ -15,7 +17,7 @@ label{
 }
 
 textarea {
-    border: 0.75rem solid rgb(89, 139, 106);
+    border: 0.75rem solid $formularioDetalles-color;
     font-size: 3rem;
 }
 
@@ -23,11 +25,10 @@ textarea {
 
 legend {
     font-size: 5rem;
-    color: rgb(67, 40, 88);
+    color: $formularioBorder-color
 }
 
 .formulario {
     font-family: 'Archivo', sans-serif;
     line-height: 5rem;
 }
-/* Fin estilos para seccion de Contacto*/

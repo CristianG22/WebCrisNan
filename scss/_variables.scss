@@ -1,0 +1,11 @@
+@mixin imageSizes ($height, $width){
+    width: $width;
+    height: $height;
+}
+
+@mixin positionXandY ($left,$right,$bottom,$top) {
+    left: $left;
+    right: $right;
+    top: $top;
+    bottom: $bottom;
+}

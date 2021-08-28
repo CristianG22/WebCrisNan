@@ -1,3 +1,6 @@
+@import "colors";
+@import "variables";
+
 .metodosPago {
     text-align: center;
     position: relative;
@@ -36,35 +39,27 @@ h3 {
 /* imagenes */
 
 .metodosPago__billete {
-    height: 12.5rem;
-    width: 20rem;
+    @include imageSizes (12.5rem,20rem);
+    @include positionXandY (100rem,0px,0px,20rem);
     position: absolute;
-    top: 20rem;
-    left: 100rem;
 }
 
 .metodosPago__tarjeta {
-    height: 15rem;
-    width: 20rem;
+    @include imageSizes (15rem,20rem);
+    @include positionXandY (100rem,0px,0px,34rem);
     position: absolute;
-    top: 34rem;
-    left: 100rem;
 }
 
 .metodosPago__cheque {
-    height: 10rem;
-    width: 20rem;
+    @include imageSizes (10rem,20rem);
+    @include positionXandY (100rem,0px,0px,52rem);
     position: absolute;
-    top: 52rem;
-    left: 100rem;
 }
 
 .metodosPago__cajero {
-    height: 17.5rem;
-    width: 22.5rem;
+    @include imageSizes (17.5rem,22.5rem);
+    @include positionXandY (110rem,0px,0px,64rem);
     position: absolute;
-    top: 64rem;
-    left: 110rem;
 } 
 
 /* fin imagenes */

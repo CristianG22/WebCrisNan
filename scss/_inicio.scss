@@ -1,9 +1,10 @@
-.animate__zoomIn {
-    margin-top: -12rem;
-    height: 125rem;
-    width: 100%;
-}
+@import "colors";
+@import "variables";
 
+.animate__zoomIn {
+    @include imageSizes (125rem,100%);
+    margin-top: -12rem;
+}
 
 .seccionPrincipal{
     display: flex;

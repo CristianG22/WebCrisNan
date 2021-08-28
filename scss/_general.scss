@@ -1,3 +1,6 @@
+@import "colors";
+@import "variables";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -76,9 +79,8 @@ a {
 
 
 .imagenLogo {
+    @include imageSizes (10rem, 25rem);
     top: 2rem;
-    height: 10rem;
-    width: 25rem;
     position: absolute;
 }
 /* Fin de styles header*/
@@ -96,9 +98,8 @@ h5 {
 }
 
 .piePagina__decoracion img {
+    @include imageSizes (18rem,40rem);
     margin-top: 6rem;
-    height: 18rem;
-    width: 40rem;
 }
 
 .piePagina__decoracion p {
@@ -136,17 +137,15 @@ h5 {
 
 
 .logoGmail {
+    @include positionXandY (17rem,0px,0px,12rem);
     height: 10rem;
     position: absolute;
-    left: 17rem;
-    top: 12rem;
 }
 
 .logoWsp {
+    @include positionXandY (17rem,0px,0px,24rem);
     height: 10rem;
     position: absolute;
-    left: 17rem;
-    top: 24rem;
 }
 
 

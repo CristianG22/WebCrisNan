@@ -59,9 +59,9 @@ a {
       color: white; }
 
 .imagenLogo {
-  top: 2rem;
-  height: 10rem;
   width: 25rem;
+  height: 10rem;
+  top: 2rem;
   position: absolute; }
 
 /* Fin de styles header*/
@@ -76,9 +76,9 @@ h5 {
   text-align: center; }
 
 .piePagina__decoracion img {
-  margin-top: 6rem;
+  width: 40rem;
   height: 18rem;
-  width: 40rem; }
+  margin-top: 6rem; }
 
 .piePagina__decoracion p {
   font-size: 4rem;
@@ -101,16 +101,20 @@ h5 {
     right: 1rem; }
 
 .logoGmail {
-  height: 10rem;
-  position: absolute;
   left: 17rem;
-  top: 12rem; }
+  right: 0px;
+  top: 12rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
 
 .logoWsp {
-  height: 10rem;
-  position: absolute;
   left: 17rem;
-  top: 24rem; }
+  right: 0px;
+  top: 24rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
 
 /*
 .navbar-collapse {
@@ -122,9 +126,9 @@ h5 {
 parte bootstrap de nav
 */
 .animate__zoomIn {
-  margin-top: -12rem;
+  width: 100%;
   height: 125rem;
-  width: 100%; }
+  margin-top: -12rem; }
 
 .seccionPrincipal {
   display: flex;
@@ -162,6 +166,13 @@ p {
   width: 200rem;
   height: 150rem; }
 
+.enumeracionServicios {
+  list-style-type: square;
+  margin-left: 8rem; }
+
+.enumeracionServicios li {
+  font-size: 3rem; }
+
 .metodosPago {
   text-align: center;
   position: relative;
@@ -189,35 +200,42 @@ h3 {
 
 /* imagenes */
 .metodosPago__billete {
-  height: 12.5rem;
   width: 20rem;
-  position: absolute;
+  height: 12.5rem;
+  left: 100rem;
+  right: 0px;
   top: 20rem;
-  left: 100rem; }
+  bottom: 0px;
+  position: absolute; }
 
 .metodosPago__tarjeta {
-  height: 15rem;
   width: 20rem;
-  position: absolute;
+  height: 15rem;
+  left: 100rem;
+  right: 0px;
   top: 34rem;
-  left: 100rem; }
+  bottom: 0px;
+  position: absolute; }
 
 .metodosPago__cheque {
-  height: 10rem;
   width: 20rem;
-  position: absolute;
+  height: 10rem;
+  left: 100rem;
+  right: 0px;
   top: 52rem;
-  left: 100rem; }
+  bottom: 0px;
+  position: absolute; }
 
 .metodosPago__cajero {
-  height: 17.5rem;
   width: 22.5rem;
-  position: absolute;
+  height: 17.5rem;
+  left: 110rem;
+  right: 0px;
   top: 64rem;
-  left: 110rem; }
+  bottom: 0px;
+  position: absolute; }
 
 /* fin imagenes */
-/* Estilos para seccion de Contacto*/
 fieldset {
   border: 0.75rem solid #432858;
   background-color: #d8dad3;
@@ -241,5 +259,3 @@ legend {
 .formulario {
   font-family: 'Archivo', sans-serif;
   line-height: 5rem; }
-
-/* Fin estilos para seccion de Contacto*/

@@ -1,0 +1,12 @@
+@import "colors";
+@import "variables";
+
+.enumeracionServicios {
+    list-style-type: square;
+    margin-left: 8rem;
+}
+
+.enumeracionServicios li {
+    font-size: 3rem;
+}
+
