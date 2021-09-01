@@ -1,6 +1,6 @@
 @mixin imageSizes ($height, $width){
-    width: $width;
     height: $height;
+    width: $width;
 }
 
 @mixin positionXandY ($left,$right,$bottom,$top) {
@@ -8,4 +8,18 @@
     right: $right;
     top: $top;
     bottom: $bottom;
+}
+
+@mixin marginsXandY ($mLeft,$mRight,$mBottom,$mTop) {
+    margin-left: $mLeft;
+    margin-right: $mRight;
+    margin-bottom: $mBottom;
+    margin-top: $mTop;    
+}
+
+@mixin paddingsXandY ($pLeft,$pRight,$pBottom,$pTop) {
+    padding-left: $mLeft;
+    padding-right: $mRight;
+    padding-bottom: $mBottom;
+    padding-top: $mTop;
 }

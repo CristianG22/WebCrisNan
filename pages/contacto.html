@@ -35,58 +35,43 @@
     <main>
         <h1>¡CONTACTANOS!</h1>
     
-        <form class="formulario">
-            <fieldset>
-                <legend>Datos de trabajo y personales</legend>
-                <div>
-                    <label for="Apellido">Ingrese su nombre:</label>
-                    <br>
-                    <input type="text" name="Nombre" required>
-                </div>
-        
-                <br> 
-                
-                <div>
-                    <label for="Nombre">Ingrese su apellido:</label>
-                    <br>
-                    <input type="text" name="Apellido" required>
-                </div>
-                
-                <br>
+        <form>
+            <div class="formulario">  
+                <fieldset>
+                    <legend>Datos de trabajo y personales</legend>
+                    <div>
+                        <label for="Apellido">Ingrese su nombre:</label>
+                        <input type="text" name="Nombre" required>
+                    </div>
+                    
+                    <div>
+                        <label for="Nombre">Ingrese su apellido:</label>
+                        <input type="text" name="Apellido" required>
+                    </div>
 
-                <div>
-                    <label for="Email">Ingrese su email:</label>
-                    <br>
-                    <input type="email" name="Email" placeholder="ejemplo@gmail.com" required>
-                </div>
+                    <div>
+                        <label for="Email">Ingrese su email:</label>
+                        <input type="email" name="Email" placeholder="ejemplo@gmail.com" required>
+                    </div>
 
-                <br>
+                    <div>
+                        <label for="telefono">Ingrese su Nro. de teléfono:</label>
+                        <input type="text" name="telefono">
+                    </div>
+                    
+                    <div>
+                        <label for="Consulta">Deje su(s) consulta(s) de trabajo(s) aqui:</label>
+                        <textarea name="Consulta" id="" cols="30" rows="5" required></textarea>
+                    </div>
+                </fieldset>
+            </div>
 
-                <div>
-                    <label for="telefono">Ingrese su Nro. de teléfono:</label>
-                    <br>
-                    <input type="text" name="telefono">
-                </div>
-                
-                <br>
-        
-                <div>
-                    <label for="Consulta">Deje su(s) consulta(s) de trabajo(s) aqui:</label>
-                    <br>
-                    <textarea name="Consulta" id="" cols="30" rows="5" required></textarea>
-                </div>
-            </fieldset>
-            
-            <br>
-
-            <div>
+            <div class="consultaEnvLimp">
                 <input type="submit" value="Enviar consulta"> 
                 <input type="reset" value="Limpiar consulta">
             </div>
 
-            <br>
-
-            <div>
+            <div class="casillaCheck" >
                 <label for="acepta"> Acepta términos y condiciones</label>
                 <input type="checkbox" name="acepta" value="terminos">
             </div>
@@ -94,30 +79,32 @@
     </main>
     
     <footer>
-        <div class="piePagina row" >
-            <div class="piePagina__decoracion col-md-4">
-                <img src="../images/general/logo.png" alt="imagenLogo">
-                <p>© 2021 diseño: Cristian Gramajo</p>
-            </div>
-
-            <div class="piePagina__menu col-md-4">
-                <h5>MENU</h5>
-                <ul class="navegadorPiePagina">
-                    <li> <a href="../index.html">INICIO</a> </li>
-                    <li> <a href="servicios.html">SERVICIOS</a> </li>
-                    <li> <a href="trabajos.html">TRABAJOS</a> </li>
-                    <li> <a href="nosotros.html">NOSOTROS</a> </li>
-                    <li> <a href="preguntas.html">PREGUNTAS FRECUENTES</a> </li>
-                    <li> <a href="contacto.html">CONTACTO</a> </li>
-                </ul>
-            </div>
-
-            <div class="piePagina__contacto col-md-4">
-                <h5>CONTACTANOS</h5>
-                <img class="logoGmail" src="../images/general/gmail.png" alt="gmailLogo"> 
-                <p>Email : @gmail.com</p>
-                <img class="logoWsp" src="../images/general/whatsapp.png" alt="wspLogo">
-                <p>Teléfono : 11 2345-6789</p> 
+        <div class="container-fluid">
+            <div class="piePagina row" >
+                <div class="piePagina__decoracion col-md-4">
+                    <img src="../images/general/logo.png" alt="imagenLogo">
+                    <p>© 2021 diseño: Cristian Gramajo</p>
+                </div>
+    
+                <div class="piePagina__menu col-md-4">
+                    <h5>MENU</h5>
+                    <ul class="navegadorPiePagina">
+                        <li> <a href="../index.html">INICIO</a> </li>
+                        <li> <a href="servicios.html">SERVICIOS</a> </li>
+                        <li> <a href="trabajos.html">TRABAJOS</a> </li>
+                        <li> <a href="nosotros.html">NOSOTROS</a> </li>
+                        <li> <a href="preguntas.html">PREGUNTAS FRECUENTES</a> </li>
+                        <li> <a href="contacto.html">CONTACTO</a> </li>
+                    </ul>
+                </div>
+    
+                <div class="piePagina__contacto col-md-4">
+                    <h5>CONTACTANOS</h5>
+                    <img class="logoGmail" src="../images/general/gmail.png" alt="gmailLogo"> 
+                    <p>Email : @gmail.com</p>
+                    <img class="logoWsp" src="../images/general/whatsapp.png" alt="wspLogo">
+                    <p>Teléfono : 11 2345-6789</p> 
+                </div>
             </div>
         </div>
     </footer>

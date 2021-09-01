@@ -4,13 +4,16 @@
 .metodosPago {
     text-align: center;
     position: relative;
-    border: 2px solid black;
+    border-right: black solid 1px;
+    background-color: $celeste;
     line-height: 15rem;
+
+    h3  {
+        margin: 5rem;
+        }
 }
 
-h3 {
-    margin: 5rem;
-}
+
 
 .metodosPago__opciones{
     display: flex;
@@ -24,9 +27,13 @@ h3 {
 }
 
 .metodologiaTrabajo {
-    border: 2px solid black;
+    border-left: 1px solid black;
+    background-color: $celeste;
     line-height: 12rem;
-
+    h3 {
+        margin: 5rem;
+    }
+    
     ol {
         margin-left: 7rem;
 

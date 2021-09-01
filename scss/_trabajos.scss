@@ -3,17 +3,28 @@
 
 .subNavegador__opciones {
     margin: 5rem;
-    margin-top: 0px;
+    padding: 2rem;
     line-height: 6.25rem;
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    border: 1px solid transparent;
+    border-color: $violeta;
+    background-color: $celeste;
+    border-radius: 2rem;
 
+    li a    {
+        color: $violeta
+            }
     li a:hover  {
+        font-weight: bold;
         color: $black;
+        font-size: 5rem;
                 }
 }
+
+
 
 .carousel-item img {
     width: 200rem;

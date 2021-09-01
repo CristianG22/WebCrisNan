@@ -1,15 +1,28 @@
 @import "colors";
 @import "variables";
 
-.principal {
-    line-height: 12.5rem;
+
+.seccionDescripcion {
+    line-height: 8rem;
+
+    ul li {
+        font-size: 5rem;
+        margin-left: 4rem;
+        }
+    p {
+        font-size: 6rem;
+    }
+}
+.seccionImagen {
+    button {
+        border-color: $violeta;
+        background-color: $celeste;
+        border-radius: 2rem;
+
+        a   {
+            @include marginsXandY (3rem,3rem,0rem,0rem);
+            color: $violeta;
+            }
+            }
 }
 
-.listado li {
-    font-size: 5rem;
-    margin-left: 3rem;
-}
-
-p {
-    font-size: 6rem;
-}

@@ -1,12 +1,21 @@
 @import "colors";
 @import "variables";
 
-.enumeracionServicios {
+.parrafoNosotros__servicios {
     list-style-type: square;
     margin-left: 8rem;
+
+    li {
+        font-size: 3rem;
+
+        a   {
+            font-size: 5rem;
+            color: $violeta;
+            }
+        }
 }
 
-.enumeracionServicios li {
-    font-size: 3rem;
+.parrafoNosotros {
+    @include marginsXandY (10rem,10rem,0rem,0rem);
+    line-height: 10rem;
 }
-

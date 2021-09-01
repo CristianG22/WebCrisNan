@@ -1,7 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-size: 4px; }
+  font-size: 4px;
+  box-sizing: border-box; }
 
 header, body, main, footer {
   width: 100%;
@@ -16,7 +17,8 @@ header {
 
 footer {
   height: 100%;
-  background-image: linear-gradient(to top, #b3b7ee, #d8dad3); }
+  background-image: linear-gradient(to top, #b3b7ee, #d8dad3);
+  margin-top: 10rem; }
 
 h1 {
   font-size: 10rem;
@@ -50,7 +52,7 @@ a {
   flex-direction: row;
   justify-content: flex-end; }
   .navegador__opciones li {
-    padding: 3rem;
+    padding: 2rem;
     z-index: 4;
     top: 2rem; }
     .navegador__opciones li a {
@@ -59,8 +61,8 @@ a {
       color: white; }
 
 .imagenLogo {
-  width: 25rem;
   height: 10rem;
+  width: 25rem;
   top: 2rem;
   position: absolute; }
 
@@ -76,8 +78,8 @@ h5 {
   text-align: center; }
 
 .piePagina__decoracion img {
-  width: 40rem;
   height: 18rem;
+  width: 40rem;
   margin-top: 6rem; }
 
 .piePagina__decoracion p {
@@ -116,6 +118,7 @@ h5 {
   height: 10rem;
   position: absolute; }
 
+/* fin de styles footer */
 /*
 .navbar-collapse {
     width: 100%;
@@ -126,61 +129,96 @@ h5 {
 parte bootstrap de nav
 */
 .animate__zoomIn {
-  width: 100%;
   height: 125rem;
+  width: 100%;
   margin-top: -12rem; }
 
-.seccionPrincipal {
+.presentacionInicio {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 10rem; }
+  .presentacionInicio p {
+    text-align: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 5rem;
+    margin-top: 10rem; }
+  .presentacionInicio button {
+    width: 38rem;
+    border: 1px solid transparent;
+    border-color: #432858;
+    background-color: #d8dad3;
+    border-radius: 2rem; }
+    .presentacionInicio button a {
+      color: #432858; }
 
-button {
-  width: 38rem;
-  background-size: cover;
-  border: 0.1rem solid; }
+.seccionDescripcion {
+  line-height: 8rem; }
+  .seccionDescripcion ul li {
+    font-size: 5rem;
+    margin-left: 4rem; }
+  .seccionDescripcion p {
+    font-size: 6rem; }
 
-.principal {
-  line-height: 12.5rem; }
-
-.listado li {
-  font-size: 5rem;
-  margin-left: 3rem; }
-
-p {
-  font-size: 6rem; }
+.seccionImagen button {
+  border-color: #432858;
+  background-color: #d8dad3;
+  border-radius: 2rem; }
+  .seccionImagen button a {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    color: #432858; }
 
 .subNavegador__opciones {
   margin: 5rem;
-  margin-top: 0px;
+  padding: 2rem;
   line-height: 6.25rem;
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  border: 1px solid transparent;
+  border-color: #432858;
+  background-color: #d8dad3;
+  border-radius: 2rem; }
+  .subNavegador__opciones li a {
+    color: #432858; }
   .subNavegador__opciones li a:hover {
-    color: black; }
+    font-weight: bold;
+    color: black;
+    font-size: 5rem; }
 
 .carousel-item img {
   width: 200rem;
   height: 150rem; }
 
-.enumeracionServicios {
+.parrafoNosotros__servicios {
   list-style-type: square;
   margin-left: 8rem; }
+  .parrafoNosotros__servicios li {
+    font-size: 3rem; }
+    .parrafoNosotros__servicios li a {
+      font-size: 5rem;
+      color: #432858; }
 
-.enumeracionServicios li {
-  font-size: 3rem; }
+.parrafoNosotros {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  line-height: 10rem; }
 
 .metodosPago {
   text-align: center;
   position: relative;
-  border: 2px solid black;
+  border-right: black solid 1px;
+  background-color: #d8dad3;
   line-height: 15rem; }
-
-h3 {
-  margin: 5rem; }
+  .metodosPago h3 {
+    margin: 5rem; }
 
 .metodosPago__opciones {
   display: flex;
@@ -191,8 +229,11 @@ h3 {
     font-size: 5rem; }
 
 .metodologiaTrabajo {
-  border: 2px solid black;
+  border-left: 1px solid black;
+  background-color: #d8dad3;
   line-height: 12rem; }
+  .metodologiaTrabajo h3 {
+    margin: 5rem; }
   .metodologiaTrabajo ol {
     margin-left: 7rem; }
     .metodologiaTrabajo ol li {
@@ -200,8 +241,8 @@ h3 {
 
 /* imagenes */
 .metodosPago__billete {
-  width: 20rem;
   height: 12.5rem;
+  width: 20rem;
   left: 100rem;
   right: 0px;
   top: 20rem;
@@ -209,8 +250,8 @@ h3 {
   position: absolute; }
 
 .metodosPago__tarjeta {
-  width: 20rem;
   height: 15rem;
+  width: 20rem;
   left: 100rem;
   right: 0px;
   top: 34rem;
@@ -218,8 +259,8 @@ h3 {
   position: absolute; }
 
 .metodosPago__cheque {
-  width: 20rem;
   height: 10rem;
+  width: 20rem;
   left: 100rem;
   right: 0px;
   top: 52rem;
@@ -227,8 +268,8 @@ h3 {
   position: absolute; }
 
 .metodosPago__cajero {
-  width: 22.5rem;
   height: 17.5rem;
+  width: 22.5rem;
   left: 110rem;
   right: 0px;
   top: 64rem;
@@ -236,26 +277,55 @@ h3 {
   position: absolute; }
 
 /* fin imagenes */
-fieldset {
-  border: 0.75rem solid #432858;
-  background-color: #d8dad3;
-  padding: 2rem; }
-
-input {
-  border: 0.75rem solid #598b6a;
-  font-size: 3rem; }
-
-label {
-  font-size: 3rem; }
-
-textarea {
-  border: 0.75rem solid #598b6a;
-  font-size: 3rem; }
-
-legend {
-  font-size: 5rem;
-  color: #432858; }
-
 .formulario {
-  font-family: 'Archivo', sans-serif;
-  line-height: 5rem; }
+  font-family: 'Archivo', sans-serif; }
+  .formulario fieldset {
+    border: 0.75rem solid #432858;
+    background-color: #d8dad3;
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 0rem; }
+    .formulario fieldset legend {
+      font-size: 6rem;
+      color: #432858; }
+  .formulario input {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    border: 0.75rem solid #598b6a;
+    font-size: 4rem;
+    display: block; }
+  .formulario label {
+    font-size: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem; }
+  .formulario textarea {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    border: 0.75rem solid #598b6a;
+    font-size: 4rem;
+    display: block; }
+
+.consultaEnvLimp {
+  margin-left: 14rem; }
+  .consultaEnvLimp input {
+    margin-left: 0rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+    margin-top: 0rem;
+    font-size: 4rem; }
+
+.casillaCheck label {
+  font-size: 4rem;
+  margin-left: 16rem; }
+
+.casillaCheck input {
+  font-size: 4rem;
+  margin-left: 4rem; }
