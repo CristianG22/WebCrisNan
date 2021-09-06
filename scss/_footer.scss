@@ -1,0 +1,62 @@
+/* Styles footer*/
+h5 {
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.piePagina {
+    text-align: center;
+}
+
+.piePagina__decoracion img {
+    @include imageSizes (18rem,40rem);
+    margin-top: 6rem;
+}
+
+.piePagina__decoracion p {
+    font-size: 4rem;
+    margin-top: 5rem;
+
+}
+
+.piePagina__menu ul {
+    list-style-type: none;
+
+    li a    {
+        font-size: 3rem;
+        color: $black;
+            }
+
+    li a:hover {
+                color: $white;
+                }
+}
+
+.piePagina__contacto {
+    text-align: center;
+
+    p   {
+        font-size: 4rem;
+        margin-top: 6rem;
+        }
+
+    h5  {
+            right: 1rem;
+        }
+}
+
+
+.logoGmail {
+    @include positionXandY (17rem,0px,0px,12rem);
+    height: 10rem;
+    position: absolute;
+}
+
+.logoWsp {
+    @include positionXandY (17rem,0px,0px,24rem);
+    height: 10rem;
+    position: absolute;
+}
+/* fin de styles footer */

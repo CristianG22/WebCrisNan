@@ -45,6 +45,15 @@ a {
   font-family: 'Archivo', sans-serif;
   text-decoration: none; }
 
+/*
+.navbar-collapse {
+    width: 100%;
+    height: 15rem;
+    background-image: linear-gradient(to bottom, rgb(179, 183, 238), rgb(216, 218, 211));
+}
+
+parte bootstrap de nav
+*/
 /* Styles header */
 .navegador__opciones {
   list-style-type: none;
@@ -119,15 +128,6 @@ h5 {
   position: absolute; }
 
 /* fin de styles footer */
-/*
-.navbar-collapse {
-    width: 100%;
-    height: 15rem;
-    background-image: linear-gradient(to bottom, rgb(179, 183, 238), rgb(216, 218, 211));
-}
-
-parte bootstrap de nav
-*/
 .animate__zoomIn {
   height: 125rem;
   width: 100%;
@@ -153,6 +153,80 @@ parte bootstrap de nav
     .presentacionInicio button a {
       color: #432858; }
 
+/* Styles header */
+.navegador__opciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .navegador__opciones li {
+    padding: 2rem;
+    z-index: 4;
+    top: 2rem; }
+    .navegador__opciones li a {
+      color: black; }
+    .navegador__opciones li a:hover {
+      color: white; }
+
+.imagenLogo {
+  height: 10rem;
+  width: 25rem;
+  top: 2rem;
+  position: absolute; }
+
+/* Fin de styles header*/
+/* Styles footer*/
+h5 {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 2rem; }
+
+.piePagina {
+  text-align: center; }
+
+.piePagina__decoracion img {
+  height: 18rem;
+  width: 40rem;
+  margin-top: 6rem; }
+
+.piePagina__decoracion p {
+  font-size: 4rem;
+  margin-top: 5rem; }
+
+.piePagina__menu ul {
+  list-style-type: none; }
+  .piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black; }
+  .piePagina__menu ul li a:hover {
+    color: white; }
+
+.piePagina__contacto {
+  text-align: center; }
+  .piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .piePagina__contacto h5 {
+    right: 1rem; }
+
+.logoGmail {
+  left: 17rem;
+  right: 0px;
+  top: 12rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+.logoWsp {
+  left: 17rem;
+  right: 0px;
+  top: 24rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+/* fin de styles footer */
 .seccionDescripcion {
   line-height: 8rem; }
   .seccionDescripcion ul li {
@@ -172,6 +246,80 @@ parte bootstrap de nav
     margin-top: 0rem;
     color: #432858; }
 
+/* Styles header */
+.navegador__opciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .navegador__opciones li {
+    padding: 2rem;
+    z-index: 4;
+    top: 2rem; }
+    .navegador__opciones li a {
+      color: black; }
+    .navegador__opciones li a:hover {
+      color: white; }
+
+.imagenLogo {
+  height: 10rem;
+  width: 25rem;
+  top: 2rem;
+  position: absolute; }
+
+/* Fin de styles header*/
+/* Styles footer*/
+h5 {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 2rem; }
+
+.piePagina {
+  text-align: center; }
+
+.piePagina__decoracion img {
+  height: 18rem;
+  width: 40rem;
+  margin-top: 6rem; }
+
+.piePagina__decoracion p {
+  font-size: 4rem;
+  margin-top: 5rem; }
+
+.piePagina__menu ul {
+  list-style-type: none; }
+  .piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black; }
+  .piePagina__menu ul li a:hover {
+    color: white; }
+
+.piePagina__contacto {
+  text-align: center; }
+  .piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .piePagina__contacto h5 {
+    right: 1rem; }
+
+.logoGmail {
+  left: 17rem;
+  right: 0px;
+  top: 12rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+.logoWsp {
+  left: 17rem;
+  right: 0px;
+  top: 24rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+/* fin de styles footer */
 .subNavegador__opciones {
   margin: 5rem;
   padding: 2rem;
@@ -195,6 +343,80 @@ parte bootstrap de nav
   width: 200rem;
   height: 150rem; }
 
+/* Styles header */
+.navegador__opciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .navegador__opciones li {
+    padding: 2rem;
+    z-index: 4;
+    top: 2rem; }
+    .navegador__opciones li a {
+      color: black; }
+    .navegador__opciones li a:hover {
+      color: white; }
+
+.imagenLogo {
+  height: 10rem;
+  width: 25rem;
+  top: 2rem;
+  position: absolute; }
+
+/* Fin de styles header*/
+/* Styles footer*/
+h5 {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 2rem; }
+
+.piePagina {
+  text-align: center; }
+
+.piePagina__decoracion img {
+  height: 18rem;
+  width: 40rem;
+  margin-top: 6rem; }
+
+.piePagina__decoracion p {
+  font-size: 4rem;
+  margin-top: 5rem; }
+
+.piePagina__menu ul {
+  list-style-type: none; }
+  .piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black; }
+  .piePagina__menu ul li a:hover {
+    color: white; }
+
+.piePagina__contacto {
+  text-align: center; }
+  .piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .piePagina__contacto h5 {
+    right: 1rem; }
+
+.logoGmail {
+  left: 17rem;
+  right: 0px;
+  top: 12rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+.logoWsp {
+  left: 17rem;
+  right: 0px;
+  top: 24rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+/* fin de styles footer */
 .parrafoNosotros__servicios {
   list-style-type: square;
   margin-left: 8rem; }
@@ -211,22 +433,92 @@ parte bootstrap de nav
   margin-top: 0rem;
   line-height: 10rem; }
 
-.metodosPago {
-  text-align: center;
+/* Styles header */
+.navegador__opciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .navegador__opciones li {
+    padding: 2rem;
+    z-index: 4;
+    top: 2rem; }
+    .navegador__opciones li a {
+      color: black; }
+    .navegador__opciones li a:hover {
+      color: white; }
+
+.imagenLogo {
+  height: 10rem;
+  width: 25rem;
+  top: 2rem;
+  position: absolute; }
+
+/* Fin de styles header*/
+/* Styles footer*/
+h5 {
+  font-size: 5rem;
+  font-weight: bold;
   position: relative;
+  margin-top: 2rem; }
+
+.piePagina {
+  text-align: center; }
+
+.piePagina__decoracion img {
+  height: 18rem;
+  width: 40rem;
+  margin-top: 6rem; }
+
+.piePagina__decoracion p {
+  font-size: 4rem;
+  margin-top: 5rem; }
+
+.piePagina__menu ul {
+  list-style-type: none; }
+  .piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black; }
+  .piePagina__menu ul li a:hover {
+    color: white; }
+
+.piePagina__contacto {
+  text-align: center; }
+  .piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .piePagina__contacto h5 {
+    right: 1rem; }
+
+.logoGmail {
+  left: 17rem;
+  right: 0px;
+  top: 12rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+.logoWsp {
+  left: 17rem;
+  right: 0px;
+  top: 24rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+/* fin de styles footer */
+.metodosPago {
   border-right: black solid 1px;
   background-color: #d8dad3;
-  line-height: 15rem; }
-  .metodosPago h3 {
-    margin: 5rem; }
-
-.metodosPago__opciones {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; }
-  .metodosPago__opciones li {
-    font-size: 5rem; }
+  align-items: center;
+  padding-bottom: 4rem; }
+  .metodosPago h3 {
+    margin: 5rem; }
+  .metodosPago p {
+    display: inline; }
 
 .metodologiaTrabajo {
   border-left: 1px solid black;
@@ -243,40 +535,106 @@ parte bootstrap de nav
 .metodosPago__billete {
   height: 12.5rem;
   width: 20rem;
-  left: 100rem;
-  right: 0px;
-  top: 20rem;
-  bottom: 0px;
-  position: absolute; }
+  margin-left: 6rem;
+  margin-right: 0rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem; }
 
 .metodosPago__tarjeta {
   height: 15rem;
   width: 20rem;
-  left: 100rem;
-  right: 0px;
-  top: 34rem;
-  bottom: 0px;
-  position: absolute; }
+  margin-left: 9rem;
+  margin-right: 0rem;
+  margin-bottom: 2rem;
+  margin-top: 0rem; }
 
 .metodosPago__cheque {
   height: 10rem;
   width: 20rem;
-  left: 100rem;
-  right: 0px;
-  top: 52rem;
-  bottom: 0px;
-  position: absolute; }
+  margin-left: 4rem;
+  margin-right: 0rem;
+  margin-bottom: 2rem;
+  margin-top: 0rem; }
 
 .metodosPago__cajero {
   height: 17.5rem;
-  width: 22.5rem;
-  left: 110rem;
-  right: 0px;
-  top: 64rem;
-  bottom: 0px;
-  position: absolute; }
+  width: 22.5rem; }
 
 /* fin imagenes */
+/* Styles header */
+.navegador__opciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .navegador__opciones li {
+    padding: 2rem;
+    z-index: 4;
+    top: 2rem; }
+    .navegador__opciones li a {
+      color: black; }
+    .navegador__opciones li a:hover {
+      color: white; }
+
+.imagenLogo {
+  height: 10rem;
+  width: 25rem;
+  top: 2rem;
+  position: absolute; }
+
+/* Fin de styles header*/
+/* Styles footer*/
+h5 {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 2rem; }
+
+.piePagina {
+  text-align: center; }
+
+.piePagina__decoracion img {
+  height: 18rem;
+  width: 40rem;
+  margin-top: 6rem; }
+
+.piePagina__decoracion p {
+  font-size: 4rem;
+  margin-top: 5rem; }
+
+.piePagina__menu ul {
+  list-style-type: none; }
+  .piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black; }
+  .piePagina__menu ul li a:hover {
+    color: white; }
+
+.piePagina__contacto {
+  text-align: center; }
+  .piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .piePagina__contacto h5 {
+    right: 1rem; }
+
+.logoGmail {
+  left: 17rem;
+  right: 0px;
+  top: 12rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+.logoWsp {
+  left: 17rem;
+  right: 0px;
+  top: 24rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+/* fin de styles footer */
 .formulario {
   font-family: 'Archivo', sans-serif; }
   .formulario fieldset {
@@ -329,3 +687,78 @@ parte bootstrap de nav
 .casillaCheck input {
   font-size: 4rem;
   margin-left: 4rem; }
+
+/* Styles header */
+.navegador__opciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .navegador__opciones li {
+    padding: 2rem;
+    z-index: 4;
+    top: 2rem; }
+    .navegador__opciones li a {
+      color: black; }
+    .navegador__opciones li a:hover {
+      color: white; }
+
+.imagenLogo {
+  height: 10rem;
+  width: 25rem;
+  top: 2rem;
+  position: absolute; }
+
+/* Fin de styles header*/
+/* Styles footer*/
+h5 {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 2rem; }
+
+.piePagina {
+  text-align: center; }
+
+.piePagina__decoracion img {
+  height: 18rem;
+  width: 40rem;
+  margin-top: 6rem; }
+
+.piePagina__decoracion p {
+  font-size: 4rem;
+  margin-top: 5rem; }
+
+.piePagina__menu ul {
+  list-style-type: none; }
+  .piePagina__menu ul li a {
+    font-size: 3rem;
+    color: black; }
+  .piePagina__menu ul li a:hover {
+    color: white; }
+
+.piePagina__contacto {
+  text-align: center; }
+  .piePagina__contacto p {
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .piePagina__contacto h5 {
+    right: 1rem; }
+
+.logoGmail {
+  left: 17rem;
+  right: 0px;
+  top: 12rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+.logoWsp {
+  left: 17rem;
+  right: 0px;
+  top: 24rem;
+  bottom: 0px;
+  height: 10rem;
+  position: absolute; }
+
+/* fin de styles footer */

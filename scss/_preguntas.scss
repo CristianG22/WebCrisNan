@@ -1,30 +1,26 @@
+@import "header";
+@import "footer";
 @import "colors";
 @import "variables";
 
 .metodosPago {
-    text-align: center;
-    position: relative;
     border-right: black solid 1px;
     background-color: $celeste;
-    line-height: 15rem;
-
-    h3  {
-        margin: 5rem;
-        }
-}
-
-
-
-.metodosPago__opciones{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 4rem;
 
-    li  {
-        font-size: 5rem;
+    h3  {
+        margin: 5rem;
+        }
+    p   {
+        display: inline;
         }
 }
+
+
 
 .metodologiaTrabajo {
     border-left: 1px solid black;
@@ -47,26 +43,21 @@
 
 .metodosPago__billete {
     @include imageSizes (12.5rem,20rem);
-    @include positionXandY (100rem,0px,0px,20rem);
-    position: absolute;
+    @include marginsXandY (6rem,0rem,1rem,0rem);
 }
 
 .metodosPago__tarjeta {
     @include imageSizes (15rem,20rem);
-    @include positionXandY (100rem,0px,0px,34rem);
-    position: absolute;
+    @include marginsXandY (9rem,0rem,2rem,0rem);
 }
 
 .metodosPago__cheque {
     @include imageSizes (10rem,20rem);
-    @include positionXandY (100rem,0px,0px,52rem);
-    position: absolute;
+    @include marginsXandY (4rem,0rem,2rem,0rem);
 }
 
 .metodosPago__cajero {
     @include imageSizes (17.5rem,22.5rem);
-    @include positionXandY (110rem,0px,0px,64rem);
-    position: absolute;
 } 
 
 /* fin imagenes */

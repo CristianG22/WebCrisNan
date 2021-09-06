@@ -1,0 +1,28 @@
+/* Styles header */
+.navegador__opciones {
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+
+    li  {
+        padding: 2rem;
+        z-index: 4;
+        top: 2rem;
+
+        a   {
+            color: $black;
+            }
+
+        a:hover {
+                color: $white;
+                }
+        }
+}
+
+.imagenLogo {
+    @include imageSizes (10rem, 25rem);
+    top: 2rem;
+    position: absolute;
+}
+/* Fin de styles header*/
