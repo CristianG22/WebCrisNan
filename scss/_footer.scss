@@ -1,4 +1,3 @@
-/* Styles footer*/
 h5 {
     font-size: 5rem;
     font-weight: bold;
@@ -8,6 +7,7 @@ h5 {
 
 .piePagina {
     text-align: center;
+    @include paddingsXandY (0rem,0rem,3rem,3rem);
 }
 
 .piePagina__decoracion img {
@@ -35,28 +35,25 @@ h5 {
 }
 
 .piePagina__contacto {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     p   {
         font-size: 4rem;
-        margin-top: 6rem;
+        display: inline;
         }
 
-    h5  {
-            right: 1rem;
-        }
 }
 
 
 .logoGmail {
-    @include positionXandY (17rem,0px,0px,12rem);
-    height: 10rem;
-    position: absolute;
+    @include imageSizes (10rem,10rem);
+    @include marginsXandY (0rem,9rem,1rem,0rem);
+
 }
 
 .logoWsp {
-    @include positionXandY (17rem,0px,0px,24rem);
-    height: 10rem;
-    position: absolute;
+    @include imageSizes (10rem,10rem);
+    @include marginsXandY (0rem,2rem,2rem,0rem);
 }
-/* fin de styles footer */

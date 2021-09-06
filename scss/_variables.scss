@@ -18,8 +18,8 @@
 }
 
 @mixin paddingsXandY ($pLeft,$pRight,$pBottom,$pTop) {
-    padding-left: $mLeft;
-    padding-right: $mRight;
-    padding-bottom: $mBottom;
-    padding-top: $mTop;
+    padding-left: $pLeft;
+    padding-right: $pRight;
+    padding-bottom: $pBottom;
+    padding-top: $pTop;
 }
