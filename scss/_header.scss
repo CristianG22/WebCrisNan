@@ -1,28 +1,116 @@
+@import "colors";
+@import "variables";
 /* Styles header */
-.navegador__opciones {
-    list-style-type: none;
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-end;
 
-    li  {
+
+header {
+    width: 100%;
+    background: $header-color;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+
+    label   {
+        display: none;
+        width: 15rem;
+        height: 15rem;
         padding: 2rem;
-        z-index: 4;
-        top: 2rem;
-
-        a   {
-            color: $black;
+        margin-bottom: -0.1px;
+        position: relative;
             }
 
-        a:hover {
-                color: $white;
+    label:hover {
+        cursor: pointer;
+        background: rgba(0,0,0,0.3);
                 }
+}   
+
+.navegador {
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+
+        li  {
+            border-right: white solid 1px;
+
+            a   {
+                display: block;
+                @include paddingsXandY (6rem,6rem,4rem,4rem);
+                text-decoration: none;
+                color: $black;
+                }
+
+            a:hover {
+                    color: $white;
+                    }
+            }
+
+        li:hover    {
+                background: rgba(0,0,0,0.3);
+                    }
         }
 }
 
-.imagenLogo {
-    @include imageSizes (10rem, 25rem);
-    top: 2rem;
+#btn-menu {
+    display: none;
+}
+
+.imagenBoton {
+    @include imageSizes (10rem,10rem);
+}
+
+.imagenLogo{
+    @include imageSizes (13rem,31rem);
+    margin-left: 4rem;
     position: absolute;
 }
-/* Fin de styles header*/
+
+@media (max-width:768px) {
+
+    #grilla {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-rows: 15rem;
+        grid-template-areas: "logo . boton"
+    }
+
+    header label {
+        display: inline-block;
+        grid-area: boton;
+        justify-self: end;
+        border-left: 1px solid $white;
+    }
+
+    .navegador {
+        position: absolute;
+        background: $footer-color;
+        width: 70%;
+        margin-left: -70%;
+
+        ul  {
+            flex-direction: column;
+
+            li  {
+                border-top: white solid 1px;
+
+                a   {
+                    @include paddingsXandY (4rem,4rem,2rem,2rem);
+                    }
+                }
+            }
+    }
+
+    #btn-menu:checked ~ .navegador {
+        @include marginsXandY (0rem,0rem,0rem,15rem);
+    }
+
+    .imagenLogo {
+        grid-area: logo;
+        justify-self: start;
+        margin-left: 2rem;
+    }
+}
