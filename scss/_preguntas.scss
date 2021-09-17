@@ -4,7 +4,7 @@
 @import "variables";
 
 .metodosPago {
-    border-right: black solid 1px;
+    border-right: $violeta solid 1px;
     background-color: $celeste;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
 
 
 .metodologiaTrabajo {
-    border-left: 1px solid black;
+    border-left: 1px solid $violeta;
     background-color: $celeste;
     line-height: 12rem;
     h3 {
@@ -62,3 +62,17 @@
 
 /* fin imagenes */
 
+@media (max-width:768px) {
+    
+    .metodosPago {
+        border-right: none;
+        border-top: $violeta 2px solid;
+        border-bottom: $violeta 1px solid;
+    }
+    
+    .metodologiaTrabajo {
+        border-left: none;
+        border-top: $violeta 1px solid;
+        border-bottom: $violeta 2px solid;
+        }
+}

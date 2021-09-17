@@ -5,7 +5,7 @@
 
 .animate__zoomIn {
     @include imageSizes (125rem,100%);
-    margin-top: -12rem;
+    margin-top: 2rem;
 }
 
 .presentacionInicio{
@@ -30,4 +30,10 @@
             color: $violeta;
             }
             }
+}
+
+@media (max-width:768px) {
+    .animate__zoomIn {
+        @include imageSizes (75rem,100%);
+        }
 }

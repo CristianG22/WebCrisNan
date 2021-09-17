@@ -42,7 +42,8 @@
     margin-left: 14rem;
 
     input   {
-        @include marginsXandY (0rem,6rem,4rem,0rem);
+        @include marginsXandY (-1rem,6rem,4rem,0rem);
+        padding: 1rem;
         font-size: 4rem;
             }
 }

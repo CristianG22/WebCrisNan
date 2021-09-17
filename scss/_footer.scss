@@ -60,3 +60,9 @@ h5 {
     @include imageSizes (10rem,10rem);
     @include marginsXandY (0rem,2rem,2rem,0rem);
 }
+
+@media (max-width:768px) {
+    .piePagina__decoracion img {
+        margin-top: 0rem;
+    }
+}

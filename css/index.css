@@ -20,7 +20,8 @@ h1 {
 h2 {
   color: #a50a04;
   font-size: 8rem;
-  font-family: 'Archivo', sans-serif; }
+  font-family: 'Archivo', sans-serif;
+  text-align: center; }
 
 h3 {
   font-size: 7rem;
@@ -36,22 +37,13 @@ a {
   font-family: 'Archivo', sans-serif;
   text-decoration: none; }
 
-/*
-.navbar-collapse {
-    width: 100%;
-    height: 15rem;
-    background-image: linear-gradient(to bottom, rgb(179, 183, 238), rgb(216, 218, 211));
-}
-
-parte bootstrap de nav
-*/
 /* Styles header */
 header {
   width: 100%;
   background: linear-gradient(to bottom, #b3b7ee, #d8dad3);
   position: sticky;
   top: 0px;
-  z-index: 5; }
+  z-index: 30; }
   header label {
     display: none;
     width: 15rem;
@@ -70,7 +62,7 @@ header {
   display: flex;
   justify-content: flex-end; }
   .navegador ul li {
-    border-right: white solid 1px; }
+    border-left: white solid 1px; }
     .navegador ul li a {
       display: block;
       padding-left: 6rem;
@@ -132,6 +124,38 @@ header {
     justify-self: start;
     margin-left: 2rem; } }
 
+@media (min-width: 769px) and (max-width: 840px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-size: 3rem; } }
+
+@media (min-width: 841px) and (max-width: 940px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 3.5rem; } }
+
+@media (min-width: 941px) and (max-width: 1040px) {
+  .navegador ul li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 3.8rem; } }
+
+@media (min-width: 1041px) and (max-width: 1140px) {
+  .navegador ul li a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem; } }
+
 h5 {
   font-size: 5rem;
   font-weight: bold;
@@ -186,10 +210,14 @@ h5 {
   margin-bottom: 2rem;
   margin-top: 0rem; }
 
+@media (max-width: 768px) {
+  .piePagina__decoracion img {
+    margin-top: 0rem; } }
+
 .animate__zoomIn {
   height: 125rem;
   width: 100%;
-  margin-top: -12rem; }
+  margin-top: 2rem; }
 
 .presentacionInicio {
   display: flex;
@@ -211,13 +239,18 @@ h5 {
     .presentacionInicio button a {
       color: #432858; }
 
+@media (max-width: 768px) {
+  .animate__zoomIn {
+    height: 75rem;
+    width: 100%; } }
+
 /* Styles header */
 header {
   width: 100%;
   background: linear-gradient(to bottom, #b3b7ee, #d8dad3);
   position: sticky;
   top: 0px;
-  z-index: 5; }
+  z-index: 30; }
   header label {
     display: none;
     width: 15rem;
@@ -236,7 +269,7 @@ header {
   display: flex;
   justify-content: flex-end; }
   .navegador ul li {
-    border-right: white solid 1px; }
+    border-left: white solid 1px; }
     .navegador ul li a {
       display: block;
       padding-left: 6rem;
@@ -298,6 +331,38 @@ header {
     justify-self: start;
     margin-left: 2rem; } }
 
+@media (min-width: 769px) and (max-width: 840px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-size: 3rem; } }
+
+@media (min-width: 841px) and (max-width: 940px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 3.5rem; } }
+
+@media (min-width: 941px) and (max-width: 1040px) {
+  .navegador ul li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 3.8rem; } }
+
+@media (min-width: 1041px) and (max-width: 1140px) {
+  .navegador ul li a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem; } }
+
 h5 {
   font-size: 5rem;
   font-weight: bold;
@@ -352,24 +417,55 @@ h5 {
   margin-bottom: 2rem;
   margin-top: 0rem; }
 
+@media (max-width: 768px) {
+  .piePagina__decoracion img {
+    margin-top: 0rem; } }
+
 .seccionDescripcion {
   line-height: 8rem; }
+  .seccionDescripcion h2 {
+    margin-bottom: 4.5rem; }
   .seccionDescripcion ul li {
     font-size: 5rem;
     margin-left: 4rem; }
   .seccionDescripcion p {
     font-size: 6rem; }
 
-.seccionImagen button {
-  border-color: #432858;
+.seccionImagen {
+  text-align: center; }
+  .seccionImagen button {
+    border-color: #432858;
+    background-color: #d8dad3;
+    border-radius: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem; }
+    .seccionImagen button a {
+      margin-left: 3rem;
+      margin-right: 3rem;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+      color: #432858; }
+  .seccionImagen img {
+    width: 100%;
+    height: 100rem; }
+
+.decoracionColor {
   background-color: #d8dad3;
-  border-radius: 2rem; }
-  .seccionImagen button a {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-    color: #432858; }
+  padding-top: 5rem; }
+  .decoracionColor button {
+    background-color: white; }
+
+.decoracionSinColor {
+  padding-top: 5rem; }
+
+#imagenPlomeria {
+  height: 114rem; }
+
+@media (max-width: 768px) {
+  .seccionImagen img {
+    margin-top: 3rem; } }
 
 /* Styles header */
 header {
@@ -377,7 +473,7 @@ header {
   background: linear-gradient(to bottom, #b3b7ee, #d8dad3);
   position: sticky;
   top: 0px;
-  z-index: 5; }
+  z-index: 30; }
   header label {
     display: none;
     width: 15rem;
@@ -396,7 +492,7 @@ header {
   display: flex;
   justify-content: flex-end; }
   .navegador ul li {
-    border-right: white solid 1px; }
+    border-left: white solid 1px; }
     .navegador ul li a {
       display: block;
       padding-left: 6rem;
@@ -458,6 +554,38 @@ header {
     justify-self: start;
     margin-left: 2rem; } }
 
+@media (min-width: 769px) and (max-width: 840px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-size: 3rem; } }
+
+@media (min-width: 841px) and (max-width: 940px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 3.5rem; } }
+
+@media (min-width: 941px) and (max-width: 1040px) {
+  .navegador ul li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 3.8rem; } }
+
+@media (min-width: 1041px) and (max-width: 1140px) {
+  .navegador ul li a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem; } }
+
 h5 {
   font-size: 5rem;
   font-weight: bold;
@@ -511,6 +639,10 @@ h5 {
   margin-right: 2rem;
   margin-bottom: 2rem;
   margin-top: 0rem; }
+
+@media (max-width: 768px) {
+  .piePagina__decoracion img {
+    margin-top: 0rem; } }
 
 .subNavegador__opciones {
   margin: 5rem;
@@ -531,9 +663,34 @@ h5 {
     color: black;
     font-size: 5rem; }
 
+section h2 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem; }
+
 .carousel-item img {
-  width: 200rem;
-  height: 150rem; }
+  height: 115rem;
+  border: black solid 1px; }
+
+#trabajos1, #trabajos4, #trabajos5, #trabajos8, #trabajos9 {
+  background-color: #d8dad3; }
+
+#trabajos1, #trabajos2, #trabajos3, #trabajos4, #trabajos5, #trabajos6, #trabajos7, #trabajos8, #trabajos9, #trabajos10 {
+  padding-bottom: 10rem;
+  border: solid 1px #432858; }
+
+#trabajos1, #trabajos2 {
+  border-top: none; }
+
+#trabajos9, #trabajos10 {
+  border-bottom: none; }
+
+@media (max-width: 768px) {
+  #trabajos3, #trabajos7 {
+    background-color: #d8dad3; }
+  #trabajos4, #trabajos8 {
+    background-color: white; } }
 
 /* Styles header */
 header {
@@ -541,7 +698,7 @@ header {
   background: linear-gradient(to bottom, #b3b7ee, #d8dad3);
   position: sticky;
   top: 0px;
-  z-index: 5; }
+  z-index: 30; }
   header label {
     display: none;
     width: 15rem;
@@ -560,7 +717,7 @@ header {
   display: flex;
   justify-content: flex-end; }
   .navegador ul li {
-    border-right: white solid 1px; }
+    border-left: white solid 1px; }
     .navegador ul li a {
       display: block;
       padding-left: 6rem;
@@ -622,6 +779,38 @@ header {
     justify-self: start;
     margin-left: 2rem; } }
 
+@media (min-width: 769px) and (max-width: 840px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-size: 3rem; } }
+
+@media (min-width: 841px) and (max-width: 940px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 3.5rem; } }
+
+@media (min-width: 941px) and (max-width: 1040px) {
+  .navegador ul li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 3.8rem; } }
+
+@media (min-width: 1041px) and (max-width: 1140px) {
+  .navegador ul li a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem; } }
+
 h5 {
   font-size: 5rem;
   font-weight: bold;
@@ -675,6 +864,10 @@ h5 {
   margin-right: 2rem;
   margin-bottom: 2rem;
   margin-top: 0rem; }
+
+@media (max-width: 768px) {
+  .piePagina__decoracion img {
+    margin-top: 0rem; } }
 
 .parrafoNosotros__servicios {
   list-style-type: square;
@@ -698,7 +891,7 @@ header {
   background: linear-gradient(to bottom, #b3b7ee, #d8dad3);
   position: sticky;
   top: 0px;
-  z-index: 5; }
+  z-index: 30; }
   header label {
     display: none;
     width: 15rem;
@@ -717,7 +910,7 @@ header {
   display: flex;
   justify-content: flex-end; }
   .navegador ul li {
-    border-right: white solid 1px; }
+    border-left: white solid 1px; }
     .navegador ul li a {
       display: block;
       padding-left: 6rem;
@@ -779,6 +972,38 @@ header {
     justify-self: start;
     margin-left: 2rem; } }
 
+@media (min-width: 769px) and (max-width: 840px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-size: 3rem; } }
+
+@media (min-width: 841px) and (max-width: 940px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 3.5rem; } }
+
+@media (min-width: 941px) and (max-width: 1040px) {
+  .navegador ul li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 3.8rem; } }
+
+@media (min-width: 1041px) and (max-width: 1140px) {
+  .navegador ul li a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem; } }
+
 h5 {
   font-size: 5rem;
   font-weight: bold;
@@ -833,8 +1058,12 @@ h5 {
   margin-bottom: 2rem;
   margin-top: 0rem; }
 
+@media (max-width: 768px) {
+  .piePagina__decoracion img {
+    margin-top: 0rem; } }
+
 .metodosPago {
-  border-right: black solid 1px;
+  border-right: #432858 solid 1px;
   background-color: #d8dad3;
   display: flex;
   flex-direction: column;
@@ -847,7 +1076,7 @@ h5 {
     display: inline; }
 
 .metodologiaTrabajo {
-  border-left: 1px solid black;
+  border-left: 1px solid #432858;
   background-color: #d8dad3;
   line-height: 12rem; }
   .metodologiaTrabajo h3 {
@@ -887,13 +1116,23 @@ h5 {
   width: 22.5rem; }
 
 /* fin imagenes */
+@media (max-width: 768px) {
+  .metodosPago {
+    border-right: none;
+    border-top: #432858 2px solid;
+    border-bottom: #432858 1px solid; }
+  .metodologiaTrabajo {
+    border-left: none;
+    border-top: #432858 1px solid;
+    border-bottom: #432858 2px solid; } }
+
 /* Styles header */
 header {
   width: 100%;
   background: linear-gradient(to bottom, #b3b7ee, #d8dad3);
   position: sticky;
   top: 0px;
-  z-index: 5; }
+  z-index: 30; }
   header label {
     display: none;
     width: 15rem;
@@ -912,7 +1151,7 @@ header {
   display: flex;
   justify-content: flex-end; }
   .navegador ul li {
-    border-right: white solid 1px; }
+    border-left: white solid 1px; }
     .navegador ul li a {
       display: block;
       padding-left: 6rem;
@@ -974,6 +1213,38 @@ header {
     justify-self: start;
     margin-left: 2rem; } }
 
+@media (min-width: 769px) and (max-width: 840px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-size: 3rem; } }
+
+@media (min-width: 841px) and (max-width: 940px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 3.5rem; } }
+
+@media (min-width: 941px) and (max-width: 1040px) {
+  .navegador ul li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 3.8rem; } }
+
+@media (min-width: 1041px) and (max-width: 1140px) {
+  .navegador ul li a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem; } }
+
 h5 {
   font-size: 5rem;
   font-weight: bold;
@@ -1027,6 +1298,10 @@ h5 {
   margin-right: 2rem;
   margin-bottom: 2rem;
   margin-top: 0rem; }
+
+@media (max-width: 768px) {
+  .piePagina__decoracion img {
+    margin-top: 0rem; } }
 
 .formulario {
   font-family: 'Archivo', sans-serif; }
@@ -1067,10 +1342,11 @@ h5 {
 .consultaEnvLimp {
   margin-left: 14rem; }
   .consultaEnvLimp input {
-    margin-left: 0rem;
+    margin-left: -1rem;
     margin-right: 6rem;
     margin-bottom: 4rem;
     margin-top: 0rem;
+    padding: 1rem;
     font-size: 4rem; }
 
 .casillaCheck label {
@@ -1087,7 +1363,7 @@ header {
   background: linear-gradient(to bottom, #b3b7ee, #d8dad3);
   position: sticky;
   top: 0px;
-  z-index: 5; }
+  z-index: 30; }
   header label {
     display: none;
     width: 15rem;
@@ -1106,7 +1382,7 @@ header {
   display: flex;
   justify-content: flex-end; }
   .navegador ul li {
-    border-right: white solid 1px; }
+    border-left: white solid 1px; }
     .navegador ul li a {
       display: block;
       padding-left: 6rem;
@@ -1168,6 +1444,38 @@ header {
     justify-self: start;
     margin-left: 2rem; } }
 
+@media (min-width: 769px) and (max-width: 840px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-size: 3rem; } }
+
+@media (min-width: 841px) and (max-width: 940px) {
+  .navegador ul li a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 3.5rem; } }
+
+@media (min-width: 941px) and (max-width: 1040px) {
+  .navegador ul li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 3.8rem; } }
+
+@media (min-width: 1041px) and (max-width: 1140px) {
+  .navegador ul li a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem; } }
+
 h5 {
   font-size: 5rem;
   font-weight: bold;
@@ -1221,3 +1529,7 @@ h5 {
   margin-right: 2rem;
   margin-bottom: 2rem;
   margin-top: 0rem; }
+
+@media (max-width: 768px) {
+  .piePagina__decoracion img {
+    margin-top: 0rem; } }
